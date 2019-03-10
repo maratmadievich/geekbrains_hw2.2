@@ -30,11 +30,18 @@
 
 @property (strong, nonatomic) UIView *ball;
 
+@property (strong, nonatomic) UILabel *scoreTop;
+
+@property (strong, nonatomic) UILabel *scoreBottom;
+
+
 @property (strong, nonatomic) UITouch *topTouch;
 
 @property (strong, nonatomic) UITouch *bottomTouch;
 
+
 @property (strong, nonatomic) NSTimer * timer;
+
 
 @property (nonatomic) float dx;
 
@@ -42,8 +49,6 @@
 
 @property (nonatomic) float speed;
 
-@property (strong, nonatomic) UILabel *scoreTop;
-
-@property (strong, nonatomic) UILabel *scoreBottom;
+@property (nonatomic) bool gameIsStart;
 
 @end
